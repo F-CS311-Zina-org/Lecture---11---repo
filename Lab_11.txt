@@ -1,0 +1,38 @@
+280124@DESKTOP-6H2J4VA MINGW64 ~
+$ git clone https://github.com/F-CS311-Zina-org/Lecture---11---repo.git
+Cloning into 'Lecture---11---repo'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+
+280124@DESKTOP-6H2J4VA MINGW64 ~
+$ cd Lecture---11---repo
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$ vi Readme.txt
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$ git add .
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$ gi commit -m "Readme.txt file modified to resolve #5"
+bash: gi: command not found
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$ git commit -m "Readme.txt file modified to resolve #5"
+[main 30927f6] Readme.txt file modified to resolve #5
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/F-CS311-Zina-org/Lecture---11---repo.git
+   29500ad..30927f6  main -> main
+
+280124@DESKTOP-6H2J4VA MINGW64 ~/Lecture---11---repo (main)
+$
